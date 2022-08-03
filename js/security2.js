@@ -12,9 +12,9 @@ class Security2 {
     }
 
    display(){
-    system = new System()
+    system2 = new System()
         this.button4.mousePressed(() => {
-            if(system.authenticate(accessCode4,this.access4.value())){
+            if(system2.authenticate(accessCode4,this.access4.value())){
                 this.button4.hide();
                 this.access4.hide();
                 score++;
